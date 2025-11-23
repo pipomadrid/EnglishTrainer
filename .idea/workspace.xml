@@ -4,34 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dd770cf-a777-4e55-afc6-62381c503a3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/EnglishTrainerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/config/SpringFXMLLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/controller/SplashScreenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/controller/VocabularioController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/service/WordService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/session/SessionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/starter/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/estilos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/login-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/main-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/splash-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/vocabulario-view.fxml" afterDir="false" />
+    <list default="true" id="6dd770cf-a777-4e55-afc6-62381c503a3d" name="Changes" comment="Primer commit">
+      <change afterPath="$PROJECT_DIR$/data/englishtrainer.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/model/Vocabulario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/repository/VocabularioDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/repository/VocabularioDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/service/DataBaseManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -72,7 +52,7 @@
     &quot;Maven.englishTrainer [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.englishTrainer [compile].executor&quot;: &quot;Run&quot;,
     &quot;Maven.englishTrainer [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.englishTrainer [javafx:run].executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.englishTrainer [javafx:run].executor&quot;: &quot;Run&quot;,
     &quot;Maven.englishTrainer [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.englishTrainer [org.apache.maven.plugins:maven-install-plugin:3.1.1:install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.englishTrainer [org.openjfx:javafx-maven-plugin:0.0.8:jlink].executor&quot;: &quot;Run&quot;,
@@ -158,10 +138,21 @@
       <option name="presentableId" value="Default" />
       <updated>1760800625375</updated>
     </task>
+    <task id="LOCAL-00001" summary="Primer commit">
+      <option name="closed" value="true" />
+      <created>1763891210038</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763891210038</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Primer commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primer commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
