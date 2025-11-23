@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<StackPane xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="com.pedrosaez.englishtrainer.controller.SplashScreenController"
+           style="-fx-background-color: linear-gradient(to bottom right, #3b82f6, #1e3a8a);"
+           minHeight="300" minWidth="400" prefHeight="600.0" prefWidth="600" >
+
+    <Rectangle width="400" height="300" arcWidth="20" arcHeight="20"
+               fill="white" opacity="0.1" />
+
+    <Label text="English Trainer"
+           style="-fx-text-fill: white;"
+    >
+        <font>
+            <Font size="36" />
+        </font>
+    </Label>
+
+</StackPane >

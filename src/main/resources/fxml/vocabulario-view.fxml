@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:controller="com.pedrosaez.englishtrainer.controller.VocabularioController"
+            xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            stylesheets="@/estilos.css"
+            prefWidth="600" prefHeight="600">
+
+<top>
+    <Label fx:id="lblPalabra" text="WORD"
+           BorderPane.alignment="CENTER"
+           styleClass="vocab-word"/>
+</top>
+
+<center>
+    <VBox alignment="CENTER" spacing="15">
+        <children>
+            <Button fx:id="btnOpcion1" styleClass="answer-button"/>
+            <Button fx:id="btnOpcion2" styleClass="answer-button"/>
+            <Button fx:id="btnOpcion3" styleClass="answer-button"/>
+            <Button fx:id="btnOpcion4" styleClass="answer-button"/>
+        </children>
+    </VBox>
+</center>
+
+<bottom>
+    <HBox alignment="CENTER" spacing="30">
+        <children>
+            <Label fx:id="lblAciertos"/>
+            <Label fx:id="lblFallos"/>
+        </children>
+    </HBox>
+</bottom>
+
+</BorderPane>

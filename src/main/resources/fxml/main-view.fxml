@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0"
+            prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.pedrosaez.englishtrainer.controller.MainController"
+            stylesheets="@/estilos.css">
+    <children>
+        <VBox alignment="CENTER" layoutX="250.0" layoutY="81.0" prefHeight="200.0" prefWidth="100.0" spacing="15.0"
+              style="-fx-background-color: linear-gradient(to bottom, #e0f7fa, #ffffff);" AnchorPane.bottomAnchor="0.0"
+              AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Label alignment="CENTER" text="English Trainer " styleClass="title-label" textFill="#333333">
+                    <font>
+                        <Font name="Segoe UI Bold" size="28.0"/>
+                    </font>
+                </Label>
+                <Button fx:id="btnVocabulario" mnemonicParsing="false" prefHeight="40.0" prefWidth="300.0"
+                        text="Entrenar vocabulario" onAction="#onVocabularioClicked" styleClass="menu-button">
+                    <font>
+                        <Font name="Segoe UI Bold" size="16.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="btnPhrasal" mnemonicParsing="false" prefHeight="40.0" prefWidth="300.0"
+                        text="Entrenar Phrasal Verbs" styleClass="menu-button">
+                    <font>
+                        <Font name="Segoe UI Bold" size="16.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="btnProgreso" mnemonicParsing="false" prefHeight="40.0" prefWidth="300.0"
+                        text="Ver estadísticas " styleClass="menu-button">
+                    <font>
+                        <Font size="16.0"/>
+                    </font>
+                </Button>
+                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+                    <children>
+                        <Label contentDisplay="TOP" text="Usuario: Pedro" textFill="#555555" styleClass="footer-label">
+                            <HBox.margin>
+                                <Insets/>
+                            </HBox.margin>
+                        </Label>
+                        <Label style="-fx-font-weight: bold;" text="Nivel: B1+" textFill="#555555"
+                               styleClass="footer-label">
+                            <HBox.margin>
+                                <Insets left="50.0"/>
+                            </HBox.margin>
+                        </Label>
+                    </children>
+                    <VBox.margin>
+                        <Insets/>
+                    </VBox.margin>
+                </HBox>
+            </children>
+            <padding>
+                <Insets bottom="30.0" left="30.0" right="30.0" top="30.0"/>
+            </padding>
+        </VBox>
+    </children>
+</AnchorPane>
