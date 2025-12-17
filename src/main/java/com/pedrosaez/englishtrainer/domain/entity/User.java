@@ -1,4 +1,4 @@
-package com.pedrosaez.englishtrainer.model;
+package com.pedrosaez.englishtrainer.domain.entity;
 
 import jakarta.persistence.*;
 

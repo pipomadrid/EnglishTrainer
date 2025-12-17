@@ -1,6 +1,6 @@
 package com.pedrosaez.englishtrainer.repository;
 
-import com.pedrosaez.englishtrainer.model.User;
+import com.pedrosaez.englishtrainer.domain.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

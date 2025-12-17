@@ -1,7 +1,7 @@
 package com.pedrosaez.englishtrainer.controller;
 
 import com.pedrosaez.englishtrainer.config.SpringFXMLLoader;
-import com.pedrosaez.englishtrainer.model.User;
+import com.pedrosaez.englishtrainer.domain.entity.User;
 import com.pedrosaez.englishtrainer.service.UserService;
 import com.pedrosaez.englishtrainer.session.SessionManager;
 import javafx.fxml.FXML;

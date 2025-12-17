@@ -1,6 +1,6 @@
 package com.pedrosaez.englishtrainer.session;
 
-import com.pedrosaez.englishtrainer.model.User;
+import com.pedrosaez.englishtrainer.domain.entity.User;
 import org.springframework.stereotype.Component;
 
 @Component
