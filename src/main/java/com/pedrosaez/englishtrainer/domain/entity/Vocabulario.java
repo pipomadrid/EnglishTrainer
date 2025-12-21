@@ -1,8 +1,10 @@
 package com.pedrosaez.englishtrainer.domain.entity;
 
 
-import com.pedrosaez.englishtrainer.domain.entity.enums.Dificultad;
-import com.pedrosaez.englishtrainer.domain.entity.enums.Nivel;
+import com.pedrosaez.englishtrainer.domain.enums.Categoria;
+import com.pedrosaez.englishtrainer.domain.enums.Dificultad;
+import com.pedrosaez.englishtrainer.domain.enums.Nivel;
+import com.pedrosaez.englishtrainer.domain.enums.Tema;
 import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
@@ -29,10 +31,15 @@ public class Vocabulario {
     @Enumerated(EnumType.STRING)
     private Dificultad  dificultad;
 
-
     @Column(nullable = false)
     @Enumerated(EnumType.STRING)
     private Nivel nivel;
+
+    @Enumerated(EnumType.STRING)
+    private Categoria categoria;
+
+    @Enumerated(EnumType.STRING)
+    private Tema tema;
 
     @Column(nullable = false, updatable = false)
     private LocalDateTime creado;
@@ -42,13 +49,15 @@ public class Vocabulario {
     public Vocabulario(){
 
     }
-    public Vocabulario(String palabra, String significado, String ejemplo, Nivel nivel ) {
+    public Vocabulario(String palabra, String significado, String ejemplo, Nivel nivel,Categoria categoria,Tema tema ) {
         this.palabra = palabra;
         this.significado = significado;
         this.ejemplo = ejemplo;
         this.notas = "";
         this.dificultad = Dificultad.MEDIUM;
         this.nivel = nivel;
+        this.categoria = categoria;
+        this.tema = tema;
     }
 
     @PrePersist
@@ -93,16 +102,20 @@ public class Vocabulario {
         return dificultad;
     }
 
-    public void setDificultad(Dificultad dificultad) {
-        this.dificultad = dificultad;
+    public Categoria getCategoria() {
+        return categoria;
+    }
+
+    public Tema getTema() {
+        return tema;
+    }
+
+    public Nivel getNivel() {
+        return nivel;
     }
 
     public LocalDateTime getCreado() {
         return creado;
-    }
-
-    public void setCreado(LocalDateTime creado) {
-        this.creado = creado;
     }
 
     public Long getId() {
@@ -112,12 +125,25 @@ public class Vocabulario {
     public void setId(Long id) {
         this.id = id;
     }
-    public Nivel getNivel() {
-        return nivel;
+
+    public void setDificultad(Dificultad dificultad) {
+        this.dificultad = dificultad;
+    }
+
+    public void setCreado(LocalDateTime creado) {
+        this.creado = creado;
     }
 
     public void setNivel(Nivel nivel) {
         this.nivel = nivel;
+    }
+
+    public void setCategoria(Categoria categoria) {
+        this.categoria = categoria;
+    }
+
+    public void setTema(Tema tema) {
+        this.tema = tema;
     }
 
 }

@@ -1,4 +1,4 @@
-package com.pedrosaez.englishtrainer.repository;
+package com.pedrosaez.englishtrainer.domain.repository;
 
 import com.pedrosaez.englishtrainer.domain.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;

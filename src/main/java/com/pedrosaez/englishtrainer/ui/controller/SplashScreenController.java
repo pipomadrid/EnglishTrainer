@@ -1,4 +1,4 @@
-package com.pedrosaez.englishtrainer.controller;
+package com.pedrosaez.englishtrainer.ui.controller;
 
 
 import com.pedrosaez.englishtrainer.config.SpringFXMLLoader;

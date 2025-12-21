@@ -1,8 +1,8 @@
-package com.pedrosaez.englishtrainer.service;
+package com.pedrosaez.englishtrainer.domain.service;
 
 
 import com.pedrosaez.englishtrainer.domain.entity.User;
-import com.pedrosaez.englishtrainer.repository.UserRepository;
+import com.pedrosaez.englishtrainer.domain.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

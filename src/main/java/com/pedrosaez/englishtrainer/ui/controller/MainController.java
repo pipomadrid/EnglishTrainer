@@ -1,15 +1,13 @@
-package com.pedrosaez.englishtrainer.controller;
+package com.pedrosaez.englishtrainer.ui.controller;
 
 
 import com.pedrosaez.englishtrainer.config.SpringFXMLLoader;
-import com.pedrosaez.englishtrainer.session.SessionManager;
+import com.pedrosaez.englishtrainer.ui.session.SessionManager;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
-import javafx.stage.Window;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

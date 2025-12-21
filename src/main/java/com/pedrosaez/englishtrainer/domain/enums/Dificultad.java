@@ -1,4 +1,4 @@
-package com.pedrosaez.englishtrainer.domain.entity.enums;
+package com.pedrosaez.englishtrainer.domain.enums;
 
 public enum Dificultad {
     EASY,

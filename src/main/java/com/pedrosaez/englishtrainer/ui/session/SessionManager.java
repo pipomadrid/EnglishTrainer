@@ -1,4 +1,4 @@
-package com.pedrosaez.englishtrainer.session;
+package com.pedrosaez.englishtrainer.ui.session;
 
 import com.pedrosaez.englishtrainer.domain.entity.User;
 import org.springframework.stereotype.Component;

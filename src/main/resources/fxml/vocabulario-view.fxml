@@ -6,7 +6,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane fx:controller="com.pedrosaez.englishtrainer.controller.VocabularioController"
+<BorderPane fx:controller="com.pedrosaez.englishtrainer.ui.controller.VocabularioController"
             xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             stylesheets="@/estilos.css"

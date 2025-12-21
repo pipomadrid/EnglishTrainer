@@ -4,25 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dd770cf-a777-4e55-afc6-62381c503a3d" name="Changes" comment="Crear Base de datos y VocabularioDAO">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/TestVocabulario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/domain/entity/enums/Dificultad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/domain/entity/enums/Nivel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/loader/VocabularioLoader.java" afterDir="false" />
+    <list default="true" id="6dd770cf-a777-4e55-afc6-62381c503a3d" name="Changes" comment="Cambio base de Datos, carga registros de prueba">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/application/model/PreguntaVocabulario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/domain/enums/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/domain/enums/Tema.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/englishtrainer.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/englishtrainer.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/domain/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/model/Vocabulario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/domain/entity/Vocabulario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/repository/VocabularioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/repository/VocabularioRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/repository/VocabularioDAOImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/service/DataBaseManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/service/WordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/service/VocabularioService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/session/SessionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/session/SessionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/TestVocabulario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/TestVocabulario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/ui/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/ui/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/controller/SplashScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/ui/controller/SplashScreenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/controller/VocabularioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/ui/controller/VocabularioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/domain/entity/Vocabulario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/domain/entity/Vocabulario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/domain/entity/enums/Dificultad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/domain/enums/Dificultad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/domain/entity/enums/Nivel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/domain/enums/Nivel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/loader/VocabularioLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/loader/VocabularioLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/domain/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/repository/VocabularioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/domain/repository/VocabularioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/domain/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/service/VocabularioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/domain/service/VocabularioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/session/SessionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/ui/session/SessionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/login-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/main-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/main-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/splash-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/splash-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/vocabulario-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/vocabulario-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +93,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\PedroJoseSaezSanchez\IdeaProjects\englishTrainer\englishTrainer\src\main\resources\fxml" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.pedrosaez.englishtrainer.ui" />
+      <recent name="com.pedrosaez.englishtrainer.domain" />
     </key>
   </component>
   <component name="RunManager" selected="Application.TestVocabulario">
@@ -182,20 +191,29 @@
       <option name="project" value="LOCAL" />
       <updated>1763927487776</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Cambio base de Datos, carga registros de prueba">
+      <option name="closed" value="true" />
+      <created>1766000470964</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1766000470964</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Primer commit" />
     <MESSAGE value="Crear Base de datos y VocabularioDAO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Crear Base de datos y VocabularioDAO" />
+    <MESSAGE value="Cambio base de Datos, carga registros de prueba" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambio base de Datos, carga registros de prueba" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/controller/MainController.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/pedrosaez/englishtrainer/ui/controller/MainController.java</url>
           <line>62</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
