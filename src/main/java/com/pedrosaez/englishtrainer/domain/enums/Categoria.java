@@ -4,7 +4,7 @@ public enum Categoria {
 
     NOUNS,
     VERBS,
-    ADJETIVES,
+    ADJECTIVES,
     ADVERBS,
     FIXED_EXPRESSION,
 }
